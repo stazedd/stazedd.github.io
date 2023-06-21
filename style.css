@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: url(./headerback.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+
+#Title:focus {
+    background-color: black;
+    color: white;
+}
+
+.links {
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+}
+
+.link {
+    color: black;
+    font-size: 20px;
+    padding-right: 25px;
+    transition-duration: 300ms;
+}
+
+.link:hover {
+    font-size: 21px;
+}
+
+.link:focus {
+    font-size: 21px;
+}
+
+
+.github:hover {
+    color: white;
+}
+
+.youtube:hover {
+    color: rgb(224, 96, 96);
+}
+
+.instagram:hover {
+    color: rgb(245, 200, 116);
+}
+
+.twitter:hover {
+    color: rgb(88, 194, 230);
+}
+
+.tiktok:hover {
+    color: #8d3199;
+}
+
+.github:focus {
+    outline: 0;
+    color: white;
+}
+
+.youtube:focus {
+    outline: 0;
+    color: rgb(224, 96, 96);
+}
+
+.instagram:focus {
+    outline: 0;
+    color: rgb(245, 200, 116);
+}
+
+.twitter:focus {
+    outline: 0;
+    color: rgb(88, 194, 230);
+}
+
+.tiktok:focus {
+    color: #8d3199;
+    outline: 0;
+}
