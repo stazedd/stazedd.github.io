@@ -52,6 +52,7 @@ body {
 
 .link:focus {
     font-size: 21px;
+    outline: 0;
 }
 
 
@@ -73,29 +74,4 @@ body {
 
 .tiktok:hover {
     color: #8d3199;
-}
-
-.github:focus {
-    outline: 0;
-    color: white;
-}
-
-.youtube:focus {
-    outline: 0;
-    color: rgb(224, 96, 96);
-}
-
-.instagram:focus {
-    outline: 0;
-    color: rgb(245, 200, 116);
-}
-
-.twitter:focus {
-    outline: 0;
-    color: rgb(88, 194, 230);
-}
-
-.tiktok:focus {
-    color: #8d3199;
-    outline: 0;
 }
